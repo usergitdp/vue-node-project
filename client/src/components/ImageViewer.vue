@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     fetchImages() {
-      fetch('http://localhost:3000/api/images')
+      fetch('https://vue-node-alpha.vercel.app:443/api/images')
         .then(response => response.json())
         .then(data => {
           this.images = data.images;
@@ -49,7 +49,7 @@ export default {
       this.selectedImage = image;
     },
     getImageUrl(image) {
-      return `http://localhost:3000/images/${image}`;
+      return `https://vue-node-alpha.vercel.app:443/images/${image}`;
     }
   }
 };
