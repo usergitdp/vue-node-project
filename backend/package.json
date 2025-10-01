@@ -11,6 +11,9 @@
   "dependencies": {
     "express": "^4.21.2"
   },
+  "engines": {
+    "node": "14.15.0"
+  },
   "main": "server.js",
   "keywords": [],
   "author": "",
