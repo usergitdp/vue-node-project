@@ -1,0 +1,19 @@
+{
+  "name": "vue-node-project",
+  "version": "1.0.0",
+  "description": "A simple Vue frontend with Node backend",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "cd client && npm run serve",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
